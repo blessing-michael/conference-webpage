@@ -1,42 +1,38 @@
-const speakers=[{
-    id: 1,
+const speakers = [{
+  id: 1,
   title: 'Didy Mike',
   backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
 },
 {
-    id: 2,
+  id: 2,
   title: 'Didy Mike',
   backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
 },
 {
-    id: 3,
+  id: 3,
   title: 'Didy Mike',
   backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
 },
 {
-    id: 4,
+  id: 4,
   title: 'Didy Mike',
   backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
 },
 
-]
+];
 
-
-const speakerscontainer = document.querySelector('.speakers-section')
+const speakerscontainer = document.querySelector('.speakers-section');
 const Navicon = document.querySelector('.bar-div');
 
 const linksContainer = document.querySelector('.links-container');
-console.log(linksContainer)
 const closeIcon = document.querySelector('.close-icon');
-const secondNavcon = document.querySelector('.second-nav');
 
 function generateWork() {
-    let displayWork = speakers.map((work) =>
-     ` 
+  let displayWork = speakers.map((work) => ` 
     
    
     <div class="speakers-container">
@@ -54,21 +50,18 @@ function generateWork() {
    
 
     </div>`);
-    displayWork = displayWork.join('');
-    console.log(displayWork)
-    speakerscontainer.innerHTML = displayWork;
-  }
-  generateWork();
+  displayWork = displayWork.join('');
+  speakerscontainer.innerHTML = displayWork;
+}
+generateWork();
 
-  
 Navicon.addEventListener('click', () => {
-    console.log('clicked')
-    linksContainer.classList.add('active');
-  });
-  
-  function closeMenu() {
-    linksContainer.classList.remove('active');
-  }
-  closeIcon.addEventListener('click', () => {
-    closeMenu();
-  });
+  linksContainer.classList.add('active');
+});
+
+function closeMenu() {
+  linksContainer.classList.remove('active');
+}
+closeIcon.addEventListener('click', () => {
+  closeMenu();
+});
