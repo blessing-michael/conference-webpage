@@ -26,6 +26,20 @@ const speakers = [{
   backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
 },
+{
+  id: 5,
+  title: 'Didy Mike',
+  img: './images/black-3.webp',
+  backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+  desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+},
+{
+  id: 6,
+  title: 'Didy Mike',
+  img: './images/black-3.webp',
+  backgound: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+  desc: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+},
 
 ];
 
@@ -58,6 +72,8 @@ function generateWork() {
   speakerscontainer.innerHTML = displayWork;
 }
 generateWork();
+
+// generateWork(2);
 
 Navicon.addEventListener('click', () => {
   linksContainer.classList.add('active');

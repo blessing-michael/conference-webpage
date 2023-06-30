@@ -26,7 +26,7 @@
 # 📖 Portfolio <a name="about-project"></a>
 
 
-**Portfolio** is my personal portfolio webpage with details of Technologies I use and projects I have worked on
+**GP Nigeria** is a non-profit organization dedicated to empowering girl child through education, training, and support.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,7 +55,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://blessing-michael.github.io/portfolio/
+https://blessing-michael.github.io/conference-webpage/
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -73,7 +73,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - On your terminal, type cd my-folder
-- git clone git@github.com:blessing-michael/portfolio.git
+- git clone git@github.com:blessing-michael/conference-webpage.git
   
 
 
