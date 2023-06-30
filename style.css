@@ -382,10 +382,12 @@ footer {
   }
 
   .logo {
-    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 3.5rem;
   }
 
   /* MAIN STYLING */
+
   .program-one {
     display: flex;
     flex-direction: column;
@@ -397,6 +399,7 @@ footer {
   .program {
     display: flex;
     gap: 0.6rem;
+    margin: 0 4rem;
   }
 
   .join {
