@@ -55,10 +55,11 @@ header {
   color: rgb(240, 238, 238);
 }
 
-.logo-h2 {
+.logo h2 a {
   text-align: center;
   margin-left: 2rem;
   color: #272a31;
+  text-decoration: none;
 }
 
 .burger {
