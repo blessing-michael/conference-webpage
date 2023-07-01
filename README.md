@@ -126,8 +126,9 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
+I would like to give credit to Cindy Shin in Behance for providing the original design
 I would like to thank Eric for his contributions
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

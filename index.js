@@ -73,8 +73,6 @@ function generateWork() {
 }
 generateWork();
 
-// generateWork(2);
-
 Navicon.addEventListener('click', () => {
   linksContainer.classList.add('active');
 });
