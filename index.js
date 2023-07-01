@@ -43,8 +43,8 @@ const speakers = [{
 
 ];
 
-const speakerscontainer = document.querySelector('.speakers-section');
 const Navicon = document.querySelector('.bar-div');
+const speakerscontainer = document.querySelector('.speakers-section');
 
 const linksContainer = document.querySelector('.links-container');
 const closeIcon = document.querySelector('.close-icon');
